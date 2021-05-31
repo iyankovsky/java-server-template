@@ -6,4 +6,5 @@
 - Basic documentation.
 - Minimal Gradle setup.
 - Gradle Doctor plugin.
+- Heap size limit for Gradle Daemon.
 - MIT license.
