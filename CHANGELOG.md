@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Gradle plugin to check for dependency updates.
 
 ## [2021.5] - 2021-06-01
 ### Added
