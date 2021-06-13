@@ -1,4 +1,4 @@
-# Template of a server-side Java project
+# Template of a server-side Java project ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
 
 ## Development
 
@@ -15,6 +15,7 @@ Key features:
 [Git] `v2.31.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
 ## Changelog
+
 All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) using the format suggested by the [keep a changelog] project.
 
 [Gradle]: https://gradle.org
@@ -23,3 +24,7 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [Git]: https://git-scm.com
 [calendar versioning]: https://calver.org
 [keep a changelog]: https://keepachangelog.com/en/1.0.0
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
