@@ -3,7 +3,7 @@
 ## Development
 
 ### Build system
-[Gradle] `v7.0.2` is used as a build and task execution system.
+[Gradle] `v7.1` is used as a build and task execution system.
 
 Key features:
 * [Gradle Wrapper]

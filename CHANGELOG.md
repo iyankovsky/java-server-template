@@ -4,6 +4,9 @@
 ### Added
 - Gradle plugin to check for dependency updates.
 
+### Changed
+- Gradle version to `7.1`.
+
 ## [2021.5] - 2021-06-01
 ### Added
 - Top-level project structure.
