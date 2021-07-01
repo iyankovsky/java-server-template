@@ -12,7 +12,7 @@ Key features:
   * advanced editing experience
 
 ### Version control system
-[Git] `v2.31.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+[Git] `v2.32.0` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
 ## Changelog
 

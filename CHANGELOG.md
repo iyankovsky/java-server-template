@@ -6,6 +6,7 @@
 
 ### Changed
 - Gradle version to `7.1`.
+- Git version to `2.32.0`.
 
 ## [2021.5] - 2021-06-01
 ### Added
