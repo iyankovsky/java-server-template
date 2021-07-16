@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Gradle version to `7.1.1`.
 
 ## [2021.6] - 2021-07-01
 ### Added
