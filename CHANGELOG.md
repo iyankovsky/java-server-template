@@ -6,6 +6,7 @@
 - Inferring modules path for JPMS.
 - Module for common entities.
 - Empty `Issue` interface.
+- FAQ.
 
 ### Changed
 - Gradle version to `7.1.1`.

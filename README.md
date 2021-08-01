@@ -26,11 +26,14 @@ Implementation features:
 ### Version control system
 [Git] `2.32.0` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
+## FAQ
+See the [FAQ](documentation/faq.md) for the answers to commonly asked questions.
+
 ## Changelog
 All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) using the format suggested by the [keep a changelog] project.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT]
 
 [Gradle]: https://gradle.org
 [Gradle Wrapper]: https://docs.gradle.org/current/userguide/gradle_wrapper.html
@@ -38,4 +41,5 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [Git]: https://git-scm.com
 [calendar versioning]: https://calver.org
 [keep a changelog]: https://keepachangelog.com/en/1.0.0
-[Java Toolchains](https://blog.gradle.org/java-toolchains)
+[Java Toolchains]: https://blog.gradle.org/java-toolchains
+[MIT]: https://choosealicense.com/licenses/mit
