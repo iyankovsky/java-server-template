@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2021.8] - 2021-08-01
 ### Added
 - Java Toolchain setup.
 - Inferring modules path for JPMS.
@@ -29,6 +31,7 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.6...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.8...HEAD
+[2021.8]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.8
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
 [2021.5]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.5
