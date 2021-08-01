@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Java Toolchain setup.
+- Inferring modules path for JPMS.
+
 ### Changed
 - Gradle version to `7.1.1`.
 

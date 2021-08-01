@@ -7,9 +7,18 @@
 
 Key features:
 * [Gradle Wrapper]
-  * the recommended way to version the build system itself
+  * The recommended way to version the build system itself.
 * [Kotlin] language for build scripts
-  * advanced editing experience
+  * Advanced editing experience.
+* [Java Toolchains]
+  * Control of used JDK vendors and distributions.
+  * Binding tasks to specific Java version.
+
+### Java
+Java 16 is used as the main language.
+
+Implementation features:
+* Java Platform Module System (JPMS) is used for all non-test modules.
 
 ### Version control system
 [Git] `2.32.0` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
@@ -26,3 +35,4 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [Git]: https://git-scm.com
 [calendar versioning]: https://calver.org
 [keep a changelog]: https://keepachangelog.com/en/1.0.0
+[Java Toolchains](https://blog.gradle.org/java-toolchains)
