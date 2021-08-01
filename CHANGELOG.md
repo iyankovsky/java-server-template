@@ -4,6 +4,8 @@
 ### Added
 - Java Toolchain setup.
 - Inferring modules path for JPMS.
+- Module for common entities.
+- Empty `Issue` interface.
 
 ### Changed
 - Gradle version to `7.1.1`.
