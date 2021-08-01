@@ -10,6 +10,7 @@
 
 ### Changed
 - Gradle version to `7.1.1`.
+- Gradle Doctor version to `0.7.1`.
 
 ## [2021.6] - 2021-07-01
 ### Added
