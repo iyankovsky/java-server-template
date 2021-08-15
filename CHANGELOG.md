@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- JUnit testing library.
 
 ## [2021.8] - 2021-08-01
 ### Added

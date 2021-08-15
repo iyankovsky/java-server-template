@@ -5,6 +5,12 @@ plugins {
     id("com.github.ben-manes.versions") version "0.39.0"
 }
 
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
 subprojects {
     plugins.withType<JavaPlugin>().configureEach {
         configure<JavaPluginExtension> {
@@ -14,6 +20,13 @@ subprojects {
             }
 
             modularity.inferModulePath.set(true)
+        }
+    }
+
+    tasks.withType(Test::class) {
+        useJUnitPlatform()
+        testLogging {
+            events("passed", "skipped", "failed")
         }
     }
 }
