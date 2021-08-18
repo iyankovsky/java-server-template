@@ -3,6 +3,10 @@
 ## [Unreleased]
 ### Added
 - JUnit testing library.
+- `Task` class.
+
+### Changed
+- `Issue` interface.
 
 ## [2021.8] - 2021-08-01
 ### Added

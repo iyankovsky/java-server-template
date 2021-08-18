@@ -1,7 +1,17 @@
 package template.core.entity.common;
 
 /**
- * Issue represents an individual important topic or problem that needs to be addressed.
+ * An <b>issue</b> represents an individual important topic or problem that needs to be addressed.
+ *
+ * @author Igor Yankovsky
  */
 public interface Issue {
+
+    /**
+     * Provides the full title of the issue.
+     *
+     * @return the issue title
+     */
+    String title();
+
 }
