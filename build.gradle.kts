@@ -35,4 +35,10 @@ group = "template"
 
 tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
     gradleReleaseChannel = "current"
+
+    fun isNonStable(version: String) = "^.*\\-(M|RC)[0-9]*$".toRegex().matches(version)
+
+    rejectVersionIf {
+        isNonStable(candidate.version)
+    }
 }
