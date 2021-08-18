@@ -2,8 +2,9 @@
 
 ## [Unreleased]
 ### Added
-- JUnit testing library.
+- [JUnit] `5.7.2` testing library.
 - `Task` class.
+- [Gradle test logger plugin] `3.0.0`.
 
 ### Changed
 - `Issue` interface.
@@ -41,3 +42,6 @@
 [2021.8]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.8
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
 [2021.5]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.5
+
+[JUnit]: https://junit.org/junit5
+[Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin
