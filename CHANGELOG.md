@@ -5,6 +5,7 @@
 - [JUnit] `5.7.2` testing library.
 - `Task` class.
 - [Gradle test logger plugin] `3.0.0`.
+- Github action to build project on push.
 
 ### Changed
 - `Issue` interface.

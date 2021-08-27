@@ -1,4 +1,4 @@
-# Template of a server-side Java project ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
+# Template of a server-side Java project ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template) ![](https://github.com/iyankovsky/java-server-template/workflows/Build/badge.svg)
 
 This template provides a reference implementation of a typical task tracker system,
 which can be examined and converted into a base for developing a real-world enterprise project.

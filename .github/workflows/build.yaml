@@ -1,0 +1,39 @@
+name: Build
+on: push
+jobs:
+
+  preparation:
+    name: Preparation
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Fetch Sources
+        uses: actions/checkout@v2
+
+      - name: Gradle Wrapper Validation
+        uses: gradle/wrapper-validation-action@v1
+
+  test:
+    name: Test
+    needs: preparation
+    runs-on: ubuntu-latest
+    container: gradle:jdk16
+    steps:
+
+      - name: Fetch Sources
+        uses: actions/checkout@v2
+
+      - name: Setup Gradle Wrapper Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
+
+      - name: Setup Gradle Dependencies Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-caches-${{ hashFiles('**/*.gradle', '**/*.gradle.kts') }}
+
+      - name: Run Tests
+        run: ./gradlew check
