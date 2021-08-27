@@ -10,6 +10,7 @@
 ### Changed
 - `Issue` interface.
 - Gradle version to `7.2`.
+- Distribution of JDK from OpenJDK to Adoptium.
 
 ## [2021.8] - 2021-08-01
 ### Added

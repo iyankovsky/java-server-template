@@ -18,7 +18,7 @@ subprojects {
     plugins.withType<JavaPlugin>().configureEach {
         configure<JavaPluginExtension> {
             toolchain {
-                vendor.set(JvmVendorSpec.ORACLE)
+                vendor.set(JvmVendorSpec.ADOPTOPENJDK)
                 languageVersion.set(JavaLanguageVersion.of(16))
             }
 
