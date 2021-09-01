@@ -6,7 +6,7 @@ which can be examined and converted into a base for developing a real-world ente
 ## Development
 
 ### Build system
-[Gradle] `7.1.1` is used as a build and task execution system.
+[Gradle] `7.2` is used as a build and task execution system.
 
 Key features:
 * [Gradle Wrapper]
@@ -24,7 +24,7 @@ Implementation features:
 * Java Platform Module System (JPMS) is used for all non-test modules.
 
 ### Version control system
-[Git] `2.32.0` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+[Git] `2.33.0` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
 ## FAQ
 See the [FAQ](documentation/faq.md) for the answers to commonly asked questions.
