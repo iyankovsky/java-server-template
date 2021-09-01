@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2021.9] - 2021-09-01
 ### Added
 - [JUnit] `5.7.2` testing library.
 - `Task` class.
@@ -41,7 +43,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.8...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.9...HEAD
+[2021.9]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.9
 [2021.8]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.8
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
 [2021.5]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.5
