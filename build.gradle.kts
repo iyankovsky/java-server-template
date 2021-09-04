@@ -10,6 +10,8 @@ allprojects {
     repositories {
         mavenCentral()
     }
+
+    apply(plugin = "org.gradle.jacoco")
 }
 
 subprojects {
@@ -30,6 +32,23 @@ subprojects {
         useJUnitPlatform()
         testLogging {
             events("passed", "skipped", "failed")
+        }
+    }
+
+    tasks.withType<JacocoReport> {
+        reports {
+            html.required.set(true)
+            html.outputLocation.set(File("$buildDir/reports/jacoco/report.html"))
+        }
+    }
+
+    tasks.withType<JacocoCoverageVerification> {
+        violationRules {
+            rule {
+                limit {
+                    minimum = 1.0.toBigDecimal()
+                }
+            }
         }
     }
 }

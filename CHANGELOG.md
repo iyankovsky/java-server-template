@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- [Jacoco] code coverage tool.
 
 ## [2021.9] - 2021-09-01
 ### Added
@@ -51,3 +53,4 @@
 
 [JUnit]: https://junit.org/junit5
 [Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin
+[Jacoco]: https://www.eclemma.org/jacoco
