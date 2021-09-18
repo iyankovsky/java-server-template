@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - [Jacoco] code coverage tool.
+- [Custom Gradle plugin] for test-driven development.
 
 ### Changed
 - [Gradle Doctor] version to `0.7.2`.
@@ -59,3 +60,4 @@
 [Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin
 [Jacoco]: https://www.eclemma.org/jacoco
 [Gradle Doctor]: https://runningcode.github.io/gradle-doctor
+[Custom Gradle plugin]: https://docs.gradle.org/current/userguide/custom_plugins.html

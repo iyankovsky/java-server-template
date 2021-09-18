@@ -28,13 +28,6 @@ subprojects {
         }
     }
 
-    tasks.withType(Test::class) {
-        useJUnitPlatform()
-        testLogging {
-            events("passed", "skipped", "failed")
-        }
-    }
-
     tasks.withType<JacocoReport> {
         reports {
             html.required.set(true)

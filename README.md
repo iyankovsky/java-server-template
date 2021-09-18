@@ -16,6 +16,8 @@ Key features:
 * [Java Toolchains]
   * Control of used JDK vendors and distributions.
   * Binding tasks to specific Java version.
+* Special [custom plugins]
+  * Optimized test-driven development.
 
 ### Java
 Java 16 is used as the main language.
@@ -42,4 +44,5 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [calendar versioning]: https://calver.org
 [keep a changelog]: https://keepachangelog.com/en/1.0.0
 [Java Toolchains]: https://blog.gradle.org/java-toolchains
+[custom plugins]: https://docs.gradle.org/current/userguide/custom_plugins.html
 [MIT]: https://choosealicense.com/licenses/mit
