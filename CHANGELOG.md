@@ -4,6 +4,9 @@
 ### Added
 - [Jacoco] code coverage tool.
 
+### Changed
+- [Gradle Doctor] version to `0.7.2`.
+
 ## [2021.9] - 2021-09-01
 ### Added
 - [JUnit] `5.7.2` testing library.
@@ -26,7 +29,7 @@
 
 ### Changed
 - Gradle version to `7.1.1`.
-- Gradle Doctor version to `0.7.1`.
+- [Gradle Doctor] version to `0.7.1`.
 
 ## [2021.6] - 2021-07-01
 ### Added
@@ -41,7 +44,7 @@
 - Top-level project structure.
 - Basic documentation.
 - Minimal Gradle setup.
-- Gradle Doctor plugin.
+- [Gradle Doctor] plugin.
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
@@ -54,3 +57,4 @@
 [JUnit]: https://junit.org/junit5
 [Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin
 [Jacoco]: https://www.eclemma.org/jacoco
+[Gradle Doctor]: https://runningcode.github.io/gradle-doctor
