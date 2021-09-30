@@ -9,6 +9,15 @@ This template represents a complete project, so all its decisions and suggested 
 It works as an example that can be transformed, refactored and supplemented into a state that forms a solid base for real project development.
 
 ##
-**Q:** Why is the task tracker chosen as the reference implementation?
+**Q:**
+Why is the task tracker chosen as the reference implementation?
 
-**A:** The task tracker is a well known kind of tool in the IT world and there is a great chance that your team members are already familiar with its concepts and features.
+**A:**
+The task tracker is a well known kind of tool in the IT world and there is a great chance that your team members are already familiar with its concepts and features.
+
+##
+**Q:** Why Git version is specified in README file?
+
+**A:**
+It is always a good practice to document all used tools and their versions, even if they are used indirectly or implicitly.
+Right now Git is a preferred tool for the vast majority of projects and some of them depend on specific Git version.
