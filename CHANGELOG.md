@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-- [Jacoco] code coverage tool.
+- [Jacoco] code coverage tool with appropriate Github action.
 - [Custom Gradle plugin] for test-driven development.
 
 ### Changed
