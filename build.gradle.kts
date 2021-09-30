@@ -10,8 +10,6 @@ allprojects {
     repositories {
         mavenCentral()
     }
-
-    apply(plugin = "org.gradle.jacoco")
 }
 
 subprojects {
