@@ -1,9 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2021.10] - 2021-10-01
 ### Added
-- [Jacoco] code coverage tool with appropriate Github action.
 - [Custom Gradle plugin] for test-driven development.
+- [Jacoco] code coverage tool with appropriate Github action.
 
 ### Changed
 - [Gradle Doctor] version to `0.7.3`.
@@ -50,7 +52,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.9...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.10...HEAD
+[2021.10]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.10
 [2021.9]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.9
 [2021.8]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.8
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
