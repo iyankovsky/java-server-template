@@ -6,7 +6,7 @@
 - [Custom Gradle plugin] for test-driven development.
 
 ### Changed
-- [Gradle Doctor] version to `0.7.2`.
+- [Gradle Doctor] version to `0.7.3`.
 - [JUnit] version to `5.8.0`.
 
 ## [2021.9] - 2021-09-01
