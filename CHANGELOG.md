@@ -7,7 +7,7 @@
 
 ### Changed
 - [Gradle Doctor] version to `0.7.3`.
-- [JUnit] version to `5.8.0`.
+- [JUnit] version to `5.8.1`.
 
 ## [2021.9] - 2021-09-01
 ### Added
