@@ -1,6 +1,7 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
+    checkstyle
     id("com.osacky.doctor") version "0.7.3"
     id("com.github.ben-manes.versions") version "0.39.0"
     id("com.adarshr.test-logger") version "3.0.0"
@@ -13,6 +14,7 @@ allprojects {
 }
 
 subprojects {
+    apply(plugin = "checkstyle")
     apply(plugin = "com.adarshr.test-logger")
 
     plugins.withType<JavaPlugin>().configureEach {

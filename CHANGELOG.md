@@ -6,6 +6,7 @@
 ### Added
 - [Custom Gradle plugin] for test-driven development.
 - [Jacoco] code coverage tool with appropriate Github action.
+- [Checkstyle] tool.
 
 ### Changed
 - [Gradle Doctor] version to `0.7.3`.
@@ -64,3 +65,4 @@
 [Jacoco]: https://www.eclemma.org/jacoco
 [Gradle Doctor]: https://runningcode.github.io/gradle-doctor
 [Custom Gradle plugin]: https://docs.gradle.org/current/userguide/custom_plugins.html
+[Checkstyle]: https://checkstyle.sourceforge.io
