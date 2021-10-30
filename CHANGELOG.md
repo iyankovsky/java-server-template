@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- [Pitest] tool for mutation testing.
 
 ## [2021.10] - 2021-10-01
 ### Added
@@ -60,6 +62,7 @@
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
 [2021.5]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.5
 
+[Pitest]: https://pitest.org
 [JUnit]: https://junit.org/junit5
 [Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin
 [Jacoco]: https://www.eclemma.org/jacoco

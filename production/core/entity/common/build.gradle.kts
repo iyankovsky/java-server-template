@@ -9,3 +9,5 @@ tasks {
         archiveBaseName.set("entity-common")
     }
 }
+
+mutate("template.core.entity.common.*")
