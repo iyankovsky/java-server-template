@@ -1,5 +1,14 @@
 # Template of a server-side Java project
-![Build](https://github.com/iyankovsky/java-server-template/workflows/Build/badge.svg) [![Coverage](.github/badges/jacoco.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml) [![Branches](.github/badges/branches.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml) [![Mutation tested with PIT](https://img.shields.io/badge/-Mutation%20tested%20with%20PIT-blue.svg)](http://pitest.org/)
+[![project: alpha](https://oss.aoapps.com/ao-badges/project-alpha.svg)](https://aoindustries.com/life-cycle#project-alpha)
+[![management: preview](https://oss.aoapps.com/ao-badges/management-preview.svg)](https://aoindustries.com/life-cycle#management-preview)
+[![packaging: developmental](https://oss.aoapps.com/ao-badges/packaging-developmental.svg)](https://aoindustries.com/life-cycle#packaging-developmental)
+
+![Build](https://github.com/iyankovsky/java-server-template/workflows/Build/badge.svg)
+[![Coverage](.github/badges/jacoco.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml)
+[![Branches](.github/badges/branches.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml)
+[![Mutation tested with PIT](https://img.shields.io/badge/-Mutation%20tested%20with%20PIT-blue.svg)](http://pitest.org/)
+
+[![java: &gt;= 16](https://oss.aoapps.com/ao-badges/java-16.svg)](https://adoptium.net)
 ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
 
 This template provides a reference implementation of a typical task tracker system,
