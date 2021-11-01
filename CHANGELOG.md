@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2021.11] - 2021-11-01
 ### Added
 - [Pitest] tool for mutation testing.
 
@@ -55,7 +57,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.10...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.11...HEAD
+[2021.11]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.11
 [2021.10]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.10
 [2021.9]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.9
 [2021.8]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.8
