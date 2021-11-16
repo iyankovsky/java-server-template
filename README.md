@@ -17,7 +17,7 @@ which can be examined and converted into a base for developing a real-world ente
 ## Development
 
 ### Build system
-[Gradle] `7.2` is used as a build and task execution system.
+[Gradle] `7.3` is used as a build and task execution system.
 
 Key features:
 * [Gradle Wrapper]
