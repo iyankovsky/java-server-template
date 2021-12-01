@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2021.12] - 2021-12-01
 ### Changed
 - Gradle version to `7.3`.
 
@@ -59,7 +61,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.11...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2021.12...HEAD
+[2021.12]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.12
 [2021.11]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.11
 [2021.10]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.10
 [2021.9]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.9

@@ -38,7 +38,7 @@ Implementation features:
 * Java Platform Module System (JPMS) is used for all non-test modules.
 
 ### Version control system
-[Git] `2.33.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+[Git] `2.34.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
 ## FAQ
 See the [FAQ](documentation/faq.md) for the answers to commonly asked questions.
@@ -58,3 +58,40 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [Java Toolchains]: https://blog.gradle.org/java-toolchains
 [custom plugins]: https://docs.gradle.org/current/userguide/custom_plugins.html
 [MIT]: https://choosealicense.com/licenses/mit
+
+
+
+
+One of the drawbacks of the microservice concept is that it is difficult to design a distributed microservice architecture right at the start of a project, and mistakes made at this stage can be very expensive. For this reason, the most common advice is to start with the monolith and then divide it into target microservices.
+
+Overall Concept
+
+task management system for a hypothetical support team
+
+task management system
+
+- User Management
+Access to the system functionality should be possible only for logged in users. That is why we will need a module enabling user management and an authentication system.
+
+- Task Management
+We will implement the basic functionality of the ticketing system, i.e. creating tasks with a name and description and changing the status of the task to "completed."
+
+- Knowledge Base
+It is worth to make the knowledge base available to users - as articles available after logging into the system.
+
+- REST API
+All functionalities listed above should be available via the REST API.
+Thanks to this, it will be possible to create dedicated applications facilitating the use of the system. It can be a web application available through a browser or a dedicated mobile application.
+
+- Web Application
+Our system should be available through a web browser, so we will add an element that is a simple web application.
+
+- Sending Notifications of New Tasks
+Creating a new task should cause sending a notification to all users. We will use for this purpose the API made available by Slack.
+
+
+Thanks to these features, the prototype building process can be limited to the coding of the task module and web app, while the remaining functionalities will be implemented using ready-made Cricket modules. This will significantly reduce the time it takes to create a prototype, and that is what we are looking for.
+
+The overall architecture of the monolithic application is based on the hexagonal architecture of the Cricket platform. The assumed functionalities are implemented by dedicated adapters.
+
+The target system will consist of a set of separate microservices, each of which will be responsible for a specific functionality.
