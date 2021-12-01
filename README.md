@@ -38,7 +38,7 @@ Implementation features:
 * Java Platform Module System (JPMS) is used for all non-test modules.
 
 ### Version control system
-[Git] `2.33.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+[Git] `2.34.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
 
 ## FAQ
 See the [FAQ](documentation/faq.md) for the answers to commonly asked questions.
