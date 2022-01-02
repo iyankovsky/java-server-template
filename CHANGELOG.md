@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Java version to '17'.
 
 ## [2021.12] - 2021-12-01
 ### Changed

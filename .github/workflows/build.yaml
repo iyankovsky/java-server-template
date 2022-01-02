@@ -17,7 +17,7 @@ jobs:
     name: Test
     needs: preparation
     runs-on: ubuntu-latest
-    container: gradle:jdk16
+    container: gradle:jdk17
     steps:
 
       - name: Fetch Sources

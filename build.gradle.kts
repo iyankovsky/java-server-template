@@ -21,7 +21,7 @@ subprojects {
         configure<JavaPluginExtension> {
             toolchain {
                 vendor.set(JvmVendorSpec.ADOPTOPENJDK)
-                languageVersion.set(JavaLanguageVersion.of(16))
+                languageVersion.set(JavaLanguageVersion.of(17))
             }
 
             modularity.inferModulePath.set(true)

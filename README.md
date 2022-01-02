@@ -8,7 +8,7 @@
 [![Branches](.github/badges/branches.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml)
 [![Mutation tested with PIT](https://img.shields.io/badge/-Mutation%20tested%20with%20PIT-blue.svg)](http://pitest.org/)
 
-[![java: &gt;= 16](https://oss.aoapps.com/ao-badges/java-16.svg)](https://adoptium.net)
+[![java: &gt;= 17](https://oss.aoapps.com/ao-badges/java-17.svg)](https://adoptium.net)
 ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
 
 This template provides a reference implementation of a typical task tracker system,
@@ -32,7 +32,7 @@ Key features:
   * Mutation testing setup.
 
 ### Java
-Java 16 is used as the main language.
+Java 17 is used as the main language.
 
 Implementation features:
 * Java Platform Module System (JPMS) is used for all non-test modules.
