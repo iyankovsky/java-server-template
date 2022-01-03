@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- [JUnit] version to `5.8.2`.
 - Gradle version to `7.3.3`.
 - Java version to '17'.
 
