@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- Gradle version to `7.3.3`.
 - Java version to '17'.
 
 ## [2021.12] - 2021-12-01
