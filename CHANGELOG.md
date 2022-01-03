@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- [Gradle test logger plugin] version to `3.1.0`.
 - [JUnit] version to `5.8.2`.
 - Gradle version to `7.3.3`.
 - Java version to '17'.
