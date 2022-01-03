@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- [Gradle Versions Plugin] version to `0.40.0`.
 - [Gradle test logger plugin] version to `3.1.0`.
 - [JUnit] version to `5.8.2`.
 - Gradle version to `7.3.3`.
@@ -82,3 +83,4 @@
 [Gradle Doctor]: https://runningcode.github.io/gradle-doctor
 [Custom Gradle plugin]: https://docs.gradle.org/current/userguide/custom_plugins.html
 [Checkstyle]: https://checkstyle.sourceforge.io
+[Gradle Versions Plugin]: https://github.com/ben-manes/gradle-versions-plugin
