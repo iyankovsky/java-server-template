@@ -8,7 +8,9 @@
 [![Branches](.github/badges/branches.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml)
 [![Mutation tested with PIT](https://img.shields.io/badge/-Mutation%20tested%20with%20PIT-blue.svg)](http://pitest.org/)
 
-[![java: &gt;= 17](https://oss.aoapps.com/ao-badges/java-17.svg)](https://adoptium.net)
+[![Gradle 7.3.3](https://img.shields.io/badge/gradle-7.3.3-brightgreen.svg)](https://gradle.org)
+[![Java 17](https://img.shields.io/badge/java-17-brightgreen.svg)](https://adoptium.net)
+
 ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
 
 This template provides a reference implementation of a typical task tracker system,
