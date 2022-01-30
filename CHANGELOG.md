@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Tasks dataset.
 
 ## [2022.1] - 2022-01-03
 ### Changed
