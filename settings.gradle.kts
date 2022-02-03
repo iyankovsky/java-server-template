@@ -8,4 +8,7 @@ rootProject.name = "java-server-template"
 
 include(":production:core:entity:common")
 
+include(":development:support:filesystem")
+
+include(":testing:environment-integration:filesystem-testing")
 include(":testing:code-coverage-report")

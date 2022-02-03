@@ -1,3 +1,5 @@
+description = "Code coverage report aggregation"
+
 plugins {
     `java-library`
     jacoco
@@ -5,6 +7,7 @@ plugins {
 
 dependencies {
     implementation(project(":production:core:entity:common"))
+    implementation(project(":testing:environment-integration:filesystem-testing"))
 }
 
 // collect source code

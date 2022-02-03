@@ -1,3 +1,5 @@
+description = "Project-specific build implementation"
+
 plugins {
     `kotlin-dsl`
 }
