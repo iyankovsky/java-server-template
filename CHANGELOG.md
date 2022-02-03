@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2022.2] - 2022-02-03
 ### Added
 - Filesystem module to support development.
 - Tasks dataset.
@@ -72,7 +74,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2022.1...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2022.2...HEAD
+[2022.2]: https://github.com/iyankovsky/java-server-template/releases/tag/v2022.2
 [2022.1]: https://github.com/iyankovsky/java-server-template/releases/tag/v2022.1
 [2021.12]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.12
 [2021.11]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.11

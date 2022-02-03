@@ -10,6 +10,7 @@ import java.util.List;
  * A <b>file set</b> provides access to list of files.
  *
  * @author Igor Yankovsky
+ * @since 2022.2
  */
 public final class FileSet {
 
