@@ -13,7 +13,7 @@
 
 ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
 
-This template provides a reference implementation of a typical task tracker system,
+This template provides a reference implementation of a typical task management system,
 which can be examined and converted into a base for developing a real-world enterprise project.
 
 ## Development
@@ -32,6 +32,10 @@ Key features:
 * Special [custom plugins]
   * Optimized test-driven development.
   * Mutation testing setup.
+* Small modules
+  * Easy to compose and replace.
+  * Best for parallel task execution and execution plan optimization.
+  * Friendly for [the build cache].
 
 ### Java
 Java 17 is used as the main language.
@@ -40,7 +44,20 @@ Implementation features:
 * Java Platform Module System (JPMS) is used for all non-test modules.
 
 ### Version control system
-[Git] `2.34.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+[Git] `2.35.1` is used to manage the codebase and releases. Release versions adheres to [calendar versioning].
+
+## Testing
+
+This project demonstrates the use of several types of automated tests:
+* **Microtests** for the main logic
+  * Heavily involved in the main cycle of **test driven development**.
+  * Mostly use **detached datasets** shared across the team.
+* Basic **environment tests** to verify development process
+  * Intended to be launched either at the beginning of work on a project or after changing the system configuration.
+* **Code coverage** reporting
+  * Per module and aggregated.
+* **Mutation testing** to check tests quality
+  * Only for core modules with critical business logic.
 
 ## FAQ
 See the [FAQ](documentation/faq.md) for the answers to commonly asked questions.
@@ -59,4 +76,5 @@ All notable changes to this project are documented in [CHANGELOG](CHANGELOG.md) 
 [keep a changelog]: https://keepachangelog.com/en/1.0.0
 [Java Toolchains]: https://blog.gradle.org/java-toolchains
 [custom plugins]: https://docs.gradle.org/current/userguide/custom_plugins.html
+[the build cache]: https://docs.gradle.org/current/userguide/build_cache.html
 [MIT]: https://choosealicense.com/licenses/mit
