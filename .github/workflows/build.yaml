@@ -36,7 +36,7 @@ jobs:
           key: ${{ runner.os }}-gradle-caches-${{ hashFiles('**/*.gradle', '**/*.gradle.kts') }}
 
       - name: Run Tests
-        run: ./gradlew check
+        run: ./gradlew check -x :testing:environment-integration:filesystem-testing:check
 
       - name: Generate Coverage Badges
         id: jacoco
