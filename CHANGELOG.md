@@ -1,14 +1,14 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- [Gradle] version to `7.4`.
+- [Gradle Versions Plugin] version from `0.40.0` to `0.42.0`.
 
 ## [2022.2] - 2022-02-03
 ### Added
 - Filesystem module to support development.
 - Tasks dataset.
-
-### Changed
-- Gradle version to `7.4`.
 
 ## [2022.1] - 2022-01-03
 ### Changed
@@ -20,7 +20,7 @@
 
 ## [2021.12] - 2021-12-01
 ### Changed
-- Gradle version to `7.3`.
+- [Gradle] version to `7.3`.
 
 ## [2021.11] - 2021-11-01
 ### Added
@@ -45,7 +45,7 @@
 
 ### Changed
 - `Issue` interface.
-- Gradle version to `7.2`.
+- [Gradle] version to `7.2`.
 - Distribution of JDK from OpenJDK to Adoptium.
 
 ## [2021.8] - 2021-08-01
@@ -57,7 +57,7 @@
 - FAQ.
 
 ### Changed
-- Gradle version to `7.1.1`.
+- [Gradle] version to `7.1.1`.
 - [Gradle Doctor] version to `0.7.1`.
 
 ## [2021.6] - 2021-07-01
@@ -65,7 +65,7 @@
 - Gradle plugin to check for dependency updates.
 
 ### Changed
-- Gradle version to `7.1`.
+- [Gradle] version to `7.1`.
 - Git version to `2.32.0`.
 
 ## [2021.5] - 2021-06-01
@@ -88,6 +88,7 @@
 [2021.6]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.6
 [2021.5]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.5
 
+[Gradle]: https://gradle.org
 [Pitest]: https://pitest.org
 [JUnit]: https://junit.org/junit5
 [Gradle test logger plugin]: https://github.com/radarsh/gradle-test-logger-plugin

@@ -3,7 +3,7 @@ import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 plugins {
     checkstyle
     id("com.osacky.doctor") version "0.7.3"
-    id("com.github.ben-manes.versions") version "0.40.0"
+    id("com.github.ben-manes.versions") version "0.42.0"
     id("com.adarshr.test-logger") version "3.1.0"
 }
 
