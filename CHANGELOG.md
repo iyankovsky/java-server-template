@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2022.3] - 2022-03-03
 ### Changed
 - [Gradle] version to `7.4`.
 - [Gradle Versions Plugin] version from `0.40.0` to `0.42.0`.
@@ -79,7 +81,8 @@
 - Heap size limit for Gradle Daemon.
 - MIT license.
 
-[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2022.2...HEAD
+[Unreleased]: https://github.com/iyankovsky/java-server-template/compare/v2022.3...HEAD
+[2022.3]: https://github.com/iyankovsky/java-server-template/releases/tag/v2022.3
 [2022.2]: https://github.com/iyankovsky/java-server-template/releases/tag/v2022.2
 [2022.1]: https://github.com/iyankovsky/java-server-template/releases/tag/v2022.1
 [2021.12]: https://github.com/iyankovsky/java-server-template/releases/tag/v2021.12
