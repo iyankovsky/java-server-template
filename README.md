@@ -8,7 +8,7 @@
 [![Branches](.github/badges/branches.svg)](https://github.com/iyankovsky/java-server-template/actions/workflows/build.yaml)
 [![Mutation tested with PIT](https://img.shields.io/badge/-Mutation%20tested%20with%20PIT-blue.svg)](http://pitest.org/)
 
-[![Gradle 7.3.3](https://img.shields.io/badge/gradle-7.3.3-brightgreen.svg)](https://gradle.org)
+[![Gradle 7.4](https://img.shields.io/badge/gradle-7.4-brightgreen.svg)](https://gradle.org)
 [![Java 17](https://img.shields.io/badge/java-17-brightgreen.svg)](https://adoptium.net)
 
 ![License: MIT](https://img.shields.io/github/license/iyankovsky/java-server-template)
@@ -19,7 +19,7 @@ which can be examined and converted into a base for developing a real-world ente
 ## Development
 
 ### Build system
-[Gradle] `7.3.3` is used as a build and task execution system.
+[Gradle] `7.4` is used as a build and task execution system.
 
 Key features:
 * [Gradle Wrapper]

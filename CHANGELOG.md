@@ -7,6 +7,9 @@
 - Filesystem module to support development.
 - Tasks dataset.
 
+### Changed
+- Gradle version to `7.4`.
+
 ## [2022.1] - 2022-01-03
 ### Changed
 - [Gradle Versions Plugin] version to `0.40.0`.
