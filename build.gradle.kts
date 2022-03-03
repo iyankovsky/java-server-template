@@ -4,7 +4,7 @@ plugins {
     checkstyle
     id("com.osacky.doctor") version "0.8.0"
     id("com.github.ben-manes.versions") version "0.42.0"
-    id("com.adarshr.test-logger") version "3.1.0"
+    id("com.adarshr.test-logger") version "3.2.0"
 }
 
 allprojects {

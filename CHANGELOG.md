@@ -5,6 +5,7 @@
 - [Gradle] version to `7.4`.
 - [Gradle Versions Plugin] version from `0.40.0` to `0.42.0`.
 - [Gradle Doctor] version from `0.7.3` to `0.8.0`.
+- [Gradle test logger plugin] version from `3.1.0` to `3.2.0`.
 
 ## [2022.2] - 2022-02-03
 ### Added
